@@ -1,0 +1,22 @@
+#people{
+    height: 300px;
+    padding: 20px;
+    background-color: #f1f0ee ;
+}
+.people-1{
+    text-align: center;
+    color: #b11a21 ;
+}
+.people-1>h1{
+     margin: 0px;
+}
+.people-2>table{
+    color: #e0474c ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.people-2>table>tr{
+    
+    border: 2px solid black;
+}

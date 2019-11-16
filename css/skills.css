@@ -1,0 +1,27 @@
+#skills{
+    height: 200px;
+    background-color: ghostwhite; 
+    margin: 0px;
+}
+.skills-1{
+    text-align: center;
+    color: #b11a21 ;
+}
+.skills-2{
+    text-align: center;
+}
+.skills-2>fieldset{
+    float: left;
+    margin: 0px;
+    width: 250px;
+    margin: 0px 80px;
+    border: none;
+}
+.skills-2>fieldset>img{
+    float: left;
+    margin: 0px;
+}
+.skills-2>fieldset>h2{
+    
+    color:  #e0474c ;
+}

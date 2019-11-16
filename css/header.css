@@ -1,5 +1,5 @@
 .header{
-    height: 100px;
+    height: 95px;
     color: red;
     background: white;
     position: sticky;
@@ -43,9 +43,10 @@
 }
 
 .menu{
-    height: 50px;
+    height: 60px;
     display: inline-block;
     background: white;
+    padding: 0px;
 }
 .menu>ul{
     float: right;
@@ -57,7 +58,7 @@
 .menu>img{
     height: 50px;
     float: left;
-    margin: 0px 230px 0px 50px;
+    margin: 0px 100px 0px 50px;
 }
 .menu>ul>li{
     padding-right: 30px;

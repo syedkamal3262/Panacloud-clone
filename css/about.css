@@ -1,5 +1,5 @@
 #about{
-    height: 500px;
+    height: 530px;
     background-image: url(../images-1/about/about_us.png);
     background-repeat: no-repeat;
     background-size: 900px 500px;
@@ -7,7 +7,7 @@
     background-color: #F2F2F2;
 }
 .about-1{
-    width: 800px;
+    width: 650px;
     display: inline-block;
     height: 300px;
     padding-left: 100px;

@@ -1,7 +1,12 @@
 .header{
     height: 100px;
     color: red;
+    background: white;
+    position: sticky;
+    top:0;
+    z-index: 0px;
 }
+
 .top-details{
     width: 900px;
     padding: 0px;
@@ -40,6 +45,7 @@
 .menu{
     height: 50px;
     display: inline-block;
+    background: white;
 }
 .menu>ul{
     float: right;

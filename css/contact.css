@@ -1,32 +1,8 @@
-.a-contact{
-    height: 300px;
-    padding: 20px;
-    background-color: ghostwhite;
-    padding: 40px 20px;
-}
-.a-contact-1>h1{
-    text-align: center;
-    margin: 0px;
-    color: #b11a21;
-}
-.a-contact-1>p{
-    text-align: center;
-    margin: 0px;
-    color: #e0474c ;
-}
-.a-contact-2{
-    height: 260px;
-    overflow: hidden;
-    padding: 5px;
-}
-.a-contact-2>iframe{
-    box-shadow: 5px 10px 10px #7acfd6  ;
-    
-}
+
 .b-contact{
     height: 250px;
     padding: 20px;
-    background-color: #f1f0ee ;
+    background-color:#8DC73F;
     padding: 40px 20px;
 }
 .b-contact>.contact-1{
@@ -37,33 +13,32 @@
     padding: 15px;
         margin-left: 30px;
 }
-.b-contact>.contact-1>p::first-line{
-    font-size: 35px;
-    font-weight: bold;
-    color: #b11a21 ;
-}
+
 .b-contact>.contact-1>p{
-    color:  #e0474c ;
+    color:  white;
+    text-align: center justify;
 }
 .b-contact>.contact-2{
     display: inline-block;
     float: right;
     width: 300px;
     text-align: left;
-    border-left: 6px solid #7acfd6 ;
 }
 .b-contact>.contact-2>ul{
     padding: 15px;
 }
+
 .b-contact>.contact-2>ul>li{
     list-style: none;
-    color:  #e0474c ;
+   color:  white;
+    text-decoration: underline;
 }
 .b-contact>.contact-2>ul>li:first-child{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     padding-bottom: 5px;
-    color: #b11a21 ;
+   color:  white;
+    text-decoration: none;
 }
 .b-contact>.contact-2>ul>li:hover{
     border: none !important;

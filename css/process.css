@@ -1,17 +1,24 @@
 #process{
-    height: 400px;
-    padding: 20px;
+    height: auto;
+    width: 100%;
     background-color: white; 
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+.adv-1{
+    display: flex;
+    align-content:center;
+    flex-flow: column wrap;
+    align-items: center;
 }
 .adv-1 h1{
     color: black;
     text-transform:uppercase;
-    font-weight: bold;
+    font-weight:bold;
     font-size: 40px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
 }
 .adv-1 h1 span{
     color: 	#678E19 !important;
@@ -19,22 +26,25 @@
     letter-spacing: 5px;
 }
 .adv-1 p{
-    text-align: center;
     color: 	darkslategrey;
     margin: 0px;
+    max-width: 100%;
+    width: 80%;
+    height: auto;
     
 }
 .adv-2{
-     height: 256px;
+     height: auto;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .adv-2-a{
-    height: 230px;
+    height: auto;
     width: 130px;
-    padding: 20px 0px 0px 70px;
-    display: inline-block;
-    
-    
+     margin: 5px auto;
 }
 .adv-2-a img h5{
     margin: 0px;
@@ -49,4 +59,23 @@
     margin: 0px;
     text-align: justify;
     color:slategrey;
+}
+/*---------------media--------------------------*/
+
+@media only screen and (max-width:1000px){
+  .adv-2{
+     height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+    .adv-2-a{
+    margin: 5px auto;
+}
+    .adv-1 h1{
+    font-size: 30px;
+}
 }

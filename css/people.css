@@ -1,38 +1,59 @@
 #people{
-    height: 430px;
-    padding: 20px;
+    height: auto;
+    padding-bottom: 20px;
+    width: 100%;
     background-color:	#F2F2F2;
+    max-width: 100%;
 }
 .people-1{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 .people-1>h1{
      margin: 0px;
     color: black;
 }
 .people-1 >p {
-    text-align: center;
     color: slategrey;
+    text-align: center;
+    max-width: 100%;
 }
 .people-1>h1 span{
 color: 	#678E19;
 }
 .people-2>table{
     color: black;
-    width: 1000px;
+    width: 80%;
     margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .people-2>table>tr{
-    
     border: 2px solid black;
+    max-width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+.people-2>table>tr>td {
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
 .people-2>table>tr td img{
     width:200px;
-    height: 100px;
+    height: auto;
 }
 .people-2 table tr td:nth-child(even)  {
-    width: 200px;
-        margin: 0px;
+    width: 50%;
+    height: auto;
+    margin: 0px;
     text-align: justify;
 }
 .people-2 table tr td:nth-child(even)::first-line{
@@ -40,7 +61,21 @@ color: 	#678E19;
     font-size: 20px;
 }
 .people-2 table tr td:nth-child(odd) {
-    width: 100px;
-    padding-left: 30px;
+    width: 5%;
     margin: 0px;    
+}
+/*---------------media--------------------------*/
+
+@media only screen and (max-width:1000px){
+    #people{
+    }
+   .people-2 table tr td:nth-child(even) ,
+    .people-2 table tr td:nth-child(odd)
+    {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     flex-flow: wrap;
+     align-content: center;
+    }
 }

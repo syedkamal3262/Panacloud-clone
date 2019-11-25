@@ -1,11 +1,16 @@
 .a-map{
-    height: 400px;
-    padding: 20px;
+    height: auto;
+    width: 100%;
     background-color: white;
-    padding: 40px 20px;
+    padding: 30px auto;
+}
+.a-map-1{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .a-map-1>h1{
-    text-align: center;
     margin: 0px;
     color: black;
 }
@@ -13,31 +18,58 @@
     color: 	#678E19;
 }
 .a-map-1>p{
-    text-align: center;
     margin: 0px;
     color: slategrey;
+    max-width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 .a-map-2{
-    height: 260px;
-    overflow: hidden;
-    padding: 0px 55px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0px auto 30px auto ;
 }
 .a-map-1-b{
-    height: 50px;
+    height: auto;
     padding-top: 10px ;
     font-size: 25px;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 .a-map-1-b p img{
     display: inline-block;
       margin: 0px;
     padding-bottom: 0px;
     height: 30px;
-    padding-left: 40px;
     vertical-align: text-bottom;    
 }
 .a-map-1-b p{
     margin: 0px;
     text-align: center;
     
+}
+/*---------------media--------------------------*/
+
+@media only screen and (max-width:1000px){
+
+    .a-map-1-b{
+    font-size: 15px;
+     flex-direction: column;
+        flex-wrap: nowrap;
+}
+    .a-map-2 iframe{
+        height:auto;
+    }
+    .a-map-1>p{
+        
+}
 }

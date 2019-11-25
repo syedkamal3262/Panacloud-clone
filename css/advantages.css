@@ -1,52 +1,44 @@
 #advantages{
-    height: 350px;
-    padding: 20px;
-    background-color: white; 
-
+    width: 100%;
+    height: auto;
 }
-.adv-1{
-    height: 90px;
-    text-align: center;
-    padding: 0px;
-    color: slategrey;
+.adv-head{
+   text-align: center;
 }
-.head-adv-1{
-   font-size: 40px;
-    font-weight: 900;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: black;
+.adv-head h1{
+    margin: 10px auto;
 }
-.head-adv-2{
-  font-size: 40px;
-    font-weight: 900;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: 	#678E19;
+.adv-head h1 span{
+    color: #678E19;
 }
-.img-block{
-     height: 250px;
-     width: 210px;
-    display: inline-block;
-    margin: 0px 30px 0px 70px;
+.adv-content img{
+    height: auto;
+    width: 180px;
+}
+.adv-content {
+    width: 100%;
+     display: flex;
+    flex-direction:row;
+    justify-content: space-around;
 }
 .img-block p strong{
-    margin: 0px;
-    text-align: center;
+    color: black;
 }
 .img-block p{
-    margin: 0px;
-    text-align: center;
     color: slategrey;
 }
-.img-block img{
- height: 200px;
- width: 200px;
-    
+.adv-head p { 
+    color: slategrey;
 }
+/*---------------media--------------------------*/
 
-
-
+@media only screen and (max-width:1000px){
+    .adv-content {
+     display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+}
 
 
 

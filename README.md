@@ -1,1 +1,2 @@
-# pana_cloud_replica
+# Pana Cloud Replica
+*checkout to flexbox branch for responsive version*

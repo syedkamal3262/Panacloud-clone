@@ -1,1 +1,2 @@
-# pana_cloud_replica
+# Pana Cloud Replica Site
+ __Responsive site is in flexbox branch__
